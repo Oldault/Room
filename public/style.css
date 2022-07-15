@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'League Spartan', sans-serif;
+    width: 100%;
+    height:max-content;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    max-width: 100%; 
+    display: block; 
+    height: auto;
+}
+
+.navigation ol {
+    display: flex;
+}
+
+.navigation li {
+    color: white;
+    margin: 0px 16px;
+    text-transform: lowercase; 
+}
+
+nav {
+    position: relative;
+    text-align: center;
+    width: 55%;
+}
+
+nav img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.interactive-nav {
+    display: flex;
+    align-content: center;
+    position: absolute;
+    top: 70px;
+    left: 65px;
+}
+
+.logo {
+    margin-right: 40px;
+}
+
+header {
+    display: flex;
+    height: 60%;
+}
+
+.head-right {
+    width: 45%;
+}
+
+.head-text {
+    padding: 8vw 7vw 4vw 7vw;
+}
+
+.head-text h1 {
+    font-size: 3.4vw;
+}
+
+p {
+    font-size: 1vw;
+    margin: 32px 0px;
+    line-height: 110%;
+    color: hsl(0, 0%, 63%);
+}
+
+.shop-now {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.shop-now h2 {
+    font-size: 1.2vw;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1.2vw;
+}
+
+.shop-now img {
+    width: 90px;
+    height: 20px;
+}
+
+.head-btn {
+    display: flex;
+}
+
+.button {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button img {
+    width: 20%;
+    height: auto;
+}
+
+.lower-section {
+    display: flex;
+    height: 40%;
+}
+
+.low-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0vw 3vw;  
+}
+
+.low-text h3 {
+    text-transform: uppercase;
+    letter-spacing: .5vw;
+    font-size: 1vw;
+    font-weight: 600;
+    margin-bottom: 1vw;
+}
+
+.low-text p {
+    margin: 0;
+}
+
+.lower-section img {
+    height: 100%;
+}
